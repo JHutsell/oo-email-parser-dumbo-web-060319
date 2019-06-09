@@ -9,7 +9,9 @@ class EmailParser
     @emails = emails 
   end
   
-  def parser
+  def parse 
+    emails.split
+  end
   
   
 end
